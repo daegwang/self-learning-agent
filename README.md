@@ -1,5 +1,8 @@
 # self-learning-agent (slagent)
 
+[![npm version](https://img.shields.io/npm/v/self-learning-agent.svg)](https://www.npmjs.com/package/self-learning-agent)
+[![license](https://img.shields.io/npm/l/self-learning-agent.svg)](https://opensource.org/licenses/MIT)
+
 A CLI tool that watches your coding AI agents, learns from every session, and automatically improves their instruction files over time.
 
 Supports: **Claude Code** · **Codex**

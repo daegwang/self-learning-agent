@@ -4,14 +4,21 @@
   "description": "A CLI tool that watches your coding AI agents, learns from every session, and improves their instructions over time",
   "type": "module",
   "bin": {
-    "slagent": "./dist/cli.js"
+    "slagent": "dist/cli.js"
   },
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
     "start": "node dist/cli.js"
   },
-  "keywords": ["cli", "ai", "coding", "claude", "codex", "learning"],
+  "keywords": [
+    "cli",
+    "ai",
+    "coding",
+    "claude",
+    "codex",
+    "learning"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
