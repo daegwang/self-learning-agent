@@ -1,0 +1,21 @@
+{
+  "name": "self-learning-agent",
+  "version": "0.1.0",
+  "description": "A CLI tool that watches your coding AI agents, learns from every session, and improves their instructions over time",
+  "type": "module",
+  "bin": {
+    "slagent": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/cli.js"
+  },
+  "keywords": ["cli", "ai", "coding", "claude", "codex", "learning"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  }
+}
